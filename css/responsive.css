@@ -1,0 +1,135 @@
+/* For Desktops */
+@media screen and (max-width: 1200px) {
+  #logo > img {
+    height: 70px;
+  }
+  #top-navigation > ul > li {
+    margin: 0 17px;
+  }
+  #two-coulmn {
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+  }
+  #right-col,
+  #left-col {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  ul#featured {
+    width: 40%;
+    margin: 0 auto;
+  }
+  ul#featured > li {
+    text-align: center;
+  }
+  .course {
+    flex-basis: 48%;
+  }
+  form#news-letter-form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #logo > img {
+    height: 60px;
+  }
+  #top-navigation a.blue-btn {
+    display: none;
+  }
+  ul#featured {
+    width: 50%;
+  }
+  #service-wrapper {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .service {
+    flex-grow: 0;
+    flex-basis: 47%;
+  }
+  #teacher-wrapper {
+    flex-wrap: wrap;
+    row-gap: 35px;
+  }
+  .teacher {
+    flex-grow: 0;
+    flex-basis: 47%;
+  }
+  form#news-letter-form {
+    width: 90%;
+  }
+  #coulmns-wrapper {
+    flex-wrap: wrap;
+  }
+  .coulmn {
+    flex-grow: 0;
+    flex-basis: 48%;
+  }
+  ul#social-media > li > a:link,
+  ul#social-media > li > a:visited {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+  }
+  .coulmn:nth-child(1) {
+    order: 3;
+  }
+  .coulmn:nth-child(2) {
+    order: 2;
+  }
+  .coulmn:nth-child(3) {
+    order: 1;
+  }
+  .coulmn:nth-child(4) {
+    order: 4;
+  }
+}
+
+@media screen and (max-width: 794px) {
+  a#show-hide-menu:link,
+  a#show-hide-menu:visited {
+    display: inline-block;
+  }
+  #top-navigation > ul {
+    display: none;
+  }
+  #left-col > img {
+    width: 100%;
+    padding-right: 0;
+  }
+  ul#featured {
+    width: 80%;
+  }
+  .coulmn {
+    flex-basis: 100%;
+  }
+  .service {
+    flex-basis: 100%;
+  }
+  .teacher {
+    flex-basis: 100%;
+  }
+  .course {
+    flex-basis: 100%;
+  }
+  ul#social-media > li > a:link,
+  ul#social-media > li > a:visited {
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  form#news-letter-form {
+    width: 100%;
+  }
+  .designer,
+  .copyright {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #end-page > .container {
+    flex-wrap: wrap;
+  }
+}
